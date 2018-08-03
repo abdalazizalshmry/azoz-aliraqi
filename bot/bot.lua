@@ -1,6 +1,6 @@
--- BY MOHAMMED HISHAM
--- BY @TH3BOSS
--- BY @lBOSSl
+-- BY azozalshmryi
+-- BY @TH3AZOZ
+-- BY @alhakeraliraqi
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
@@ -114,7 +114,7 @@ end
 	info_text = "◈￤info_text = "◈￤welcome Dear\n\n◈￤Basic Developer : @llJOKERll \n\n◈￤TH3LEDR \n\n◈￤Final Version 24 \n\n◈￤Channel Developer : @llJOKERll \n\n◈￤Developer of bot : "..sudouser.."\n\n",
 
   }
-  file = io.open("TH3BOSS.sh", "w")
+  file = io.open("TH3AZOZ.sh", "w")
 file:write([[
 token="]]..token..[["
 if [ ! -f ./tg/tgcli ]; then
